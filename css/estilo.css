@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#cargando {
+    display: none;
+}
+
+.submenu{
+    background-color:#b97d45;
+}
+
+.card{
+    background-color: #61727a;
+    border-color: black;
+    
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+
+.card-header{
+    background-color:#b97d45;
+    border-color: black;
+}
+
+.card h1{
+    margin-top: 10px;
+}
+
+.card-body img{
+    display: block;
+    max-width: 310px;
+    max-height: 180px;
+}
+
+.valoracion-container{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.valoracion-container img{
+    max-width: 50%;
+}
+
+.card-footer{
+    border-color: black;
+}
+
+.agregar-carrito{
+    background-color: #b97d45;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+}
+
+body{
+    background-image:url("/img/BG.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'Inter';
+
+}
+
+table{
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+th{
+    background-color: aliceblue;
+}
+
+label{
+    background-color: aliceblue;
+}
