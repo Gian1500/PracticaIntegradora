@@ -8,19 +8,7 @@ const procesarPedidoBtn = document.getElementById('procesar-pedido');
 var nombre = document.getElementById('nombreRecomendacion');
 var imagen =  document.getElementById('imgRecomendacion');
 var ciudad =  document.getElementById('ciudadRecomendacion');
-const traerData = async()=>{
-    const resp = await 
-    fetch('https://randomuser.me/api/');
-    const data = await resp.json();
 
-    nombre.innerText = `${data.results['0'].name.first} ${data.results['0'].name.last}`;
-    ciudad.innerText = `${data.results['0'].location.city}`;
-    imagen.src = `${data.results['0'].picture.large}`;
-
-  
-}
-
-traerData();
 cargarEventos();
 
 function cargarEventos (){
